@@ -1,0 +1,257 @@
+/* CSS Document */
+/* Padrões de Fontes no projeto
+// Títulos: PT Sans ;
+// Citações: Bitter;
+// Texto: 'Arial' ;
+// Ordinal / químico: 'Calibri' ;
+*/
+
+/* TÍTULO */
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/PTSans-Regular.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/PTSans-Italic.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: bold;
+    src: url(../fonts/PTSans-BoldItalic.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/PTSans-Bold.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+
+
+/* CITAÇÃO */
+@font-face {
+
+    font-family: "Bitter";
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/Bitter-Bold.otf) format("opentype"),
+        url(../fonts/Bitter-Bold.ttf) format("truetype"),
+        url(../fonts/Bitter-Bold.woff2) format("woff2"),
+        url(../fonts/Bitter-Bold.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Bitter";
+    font-style: italic;
+    font-weight: 300;
+    src: url(../fonts/Bitter-Italic.otf) format("opentype"),
+        url(../fonts/Bitter-Italic.ttf) format("truetype"),
+        url(../fonts/Bitter-Italic.woff2) format("woff2"),
+        url(../fonts/Bitter-Italic.woff) format("woff");
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Bitter";
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/Bitter-Regular.otf) format("opentype"),
+        url(../fonts/Bitter-Regular.ttf) format("truetype"),
+        url(../fonts/Bitter-Regular.woff2) format("woff2"),
+        url(../fonts/Bitter-Regular.woff) format("woff");
+    font-display: swap;
+}
+
+
+/* CORPO DO TEXTO */
+@font-face {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/Arial.otf) format("opentype"),
+        url(../fonts/Arial.ttf) format("truetype"),
+        url(../fonts/Arial.woff2) format("woff2"),
+        url(../fonts/Arial.woff) format("woff");
+    font-display: swap;
+}
+
+/* ORDINAL */
+@font-face {
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: bold;
+    src: url(../fonts/calibri-bold-italic.otf) format("opentype"),
+        url(../fonts/calibri-bold-italic.ttf) format("truetype"),
+        url(../fonts/calibri-bold-italic.woff2) format("woff2"),
+        url(../fonts/calibri-bold-italic.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/calibri-bold.otf) format("opentype"),
+        url(../fonts/calibri-bold.ttf) format("truetype"),
+        url(../fonts/calibri-bold.woff2) format("woff2"),
+        url(../fonts/calibri-bold.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/calibri-italic.otf) format("opentype"),
+        url(../fonts/calibri-italic.ttf) format("truetype"),
+        url(../fonts/calibri-italic.woff2) format("woff2"),
+        url(../fonts/calibri-italic.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/calibri-regular.otf) format("opentype"),
+        url(../fonts/calibri-regular.ttf) format("truetype"),
+        url(../fonts/calibri-regular.woff2) format("woff2"),
+        url(../fonts/calibri-regular.woff) format("woff");
+    font-display: swap;
+}
+
+
+/*👉 Padrões de Projeto👈*/
+
+:root {
+    /* Fontes */
+    --titulo: 'PT Sans';
+    --citacao: 'Bitter';
+    --texto: 'Arial';
+    --ordinal: 'Calibri';
+
+    /*👉--quimico: ;👈*/
+
+    /* Tamanhos */
+    --peso1: 1.8em;
+    --peso2: 1.7em;
+    --peso3: 1.6em;
+    --peso4: 1.5em;
+    --peso5: 1.4em;
+    --peso6: 1.3em;
+    --peso7: 1.2em;
+    --peso8: 1.1em;
+    --peso9: 0.9em;
+    --pesoPadrao: 1em;
+    --pesoMenor: 0.8em;
+    --pesoIntermediario: 0.9em;
+
+    /* Cores */
+    --corprof: #8a014c;
+    --preto: #000;
+    --branco: #fff;
+    --cinza: #d0d0cf;
+    --cinzaRecado:#ececec;
+    --link: #00649c;
+    --manualu: #E4F2E7;
+
+    --preto_: #0D1C2E;
+
+    --azulEscuro: #4b76ba;
+    --azul1: #7196ce;
+    --azul2:#c8d9f1;
+    --azul3: #dee9f8;
+
+    --amareloEscuro:;
+    --amarelo1:#f2e400;
+    --amarelo2:#fbed66;
+    --amarelo3:#fff9c7;
+    --mostarda: #e6e09c;
+    
+    --verdeEscuro:#00a159;
+    --verde1: #6eaa27;
+    --verde2: #cce4ce;
+    --verde3: #e2edd0;
+    
+    --laranjaEscuro:;
+    --laranja1: #ec8e38;
+    --laranja2: #fcd7b8; /*👉fde1c5👈*/
+    --laranja3: #fdece4;
+
+    --lilasEscuro: #6e358b;
+    --lilas1:#7e5ca3;
+    --lilas2:#c7c1e1;
+    --lilas3:#e8e5f3;
+    
+   /*👉 
+   --vermelhoEscuro:;
+    --vermelho1:;
+    --vermelho2:;
+    --vermelho3:;
+    👈*/
+
+    --roxoEscuro:#470f51;
+    --roxo1: #A71680;
+    --roxo2: #E7D5EA;
+    --roxo3: #f2e9f4;
+
+    --rosaEscuro:;
+    --rosa1:#ea5178;
+    --rosa2:#f9d1d5;
+    --rosa3:;
+
+    --turquesaEscuro:#003c3c;
+    --turquesa1:#449fa4;
+    --turquesa2:#96d1d4;
+    --turquesa3:#e0f1f4;
+
+    --odsEscuro: #9c0f06;
+    --ods: #e30513;
+    --odsFundo: #fbd9d2;
+
+    --odsFndAzul: #dff2fd;
+
+    --estrategiaEscuro: #af2608;
+    --estrategia: #ed7102;
+    --estrategiaFundo:#fde1c6;
+
+
+    --juventudesEscuro:#006f2c;
+    --juventudes: #55a932;
+    --juventudesFundo: #e1efe3;
+
+    --midiaticaEscuro:#0056a4;
+    --midiatica: #009ed4;
+    --midiaticaFundo: #d4edfc;
+
+
+    /* Cores degrade */
+
+}
