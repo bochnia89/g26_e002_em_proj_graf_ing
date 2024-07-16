@@ -42,7 +42,7 @@
 .slick-next .slick-next-icon, .slick-next .slick-prev-icon, .slick-prev .slick-next-icon, .slick-prev .slick-prev-icon {
     display: block;
     opacity: 0.5;
-    font-family: "Arial";
+    font-family: var(--oedtexto);
     font-size: 35px; /*tamanho dos botões de anterior e próximo*/
     line-height: 1;
     
@@ -130,7 +130,7 @@
     top: 0;
     left: 0;
     content: "•";
-    font-family: "Arial";
+    font-family: var(--oedtexto);
     line-height: 1;
     text-align: center;
     transition: all .05s linear;

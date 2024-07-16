@@ -3,25 +3,6 @@
 @import url(colorfonts.css);
 /* CSS Document */
 
-/* CSS Document */
-/* Padrões de Fontes no projeto
-// Títulos: ;
-// Citações: 
-// Texto: 'Arial' ;
-// Ordinal / químico: 'Calibri' ;
-*/
-
-@font-face {
-    font-family: 'Courier Prime';
-    font-style: normal;
-    font-weight: 300;
-    src: url(../fonts/CourierPrime-Regular.otf) format("opentype"),
-        url(../fonts/CourierPrime-Regular.ttf) format("truetype"),
-        url(../fonts/CourierPrime-Regular.woff2) format("woff2"),
-        url(../fonts/CourierPrime-Regular.woff) format("woff");
-    font-display: swap;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -173,15 +154,15 @@ a.d3hyperlinkoed:hover {
 }
 
 /* Alinhamento vertical */
-.colTop {
+.coltop {
     align-items: flex-start;
 }
 
-.colCenter {
+.colcenter {
     align-items: center;
 }
 
-.colBottom {
+.colbottom {
     align-items: flex-end;
 }
 
@@ -197,7 +178,7 @@ a.d3hyperlinkoed:hover {
 }
 
 .d3instrucaooed {
-    font-family: 'Courier Prime';
+    font-family: var(--oedinstrucao);
     padding: 1em;
     font-size: 0.9em;
     line-height: 1.1em;
