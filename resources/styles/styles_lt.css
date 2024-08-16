@@ -479,7 +479,7 @@ p0tit6negativo
 .p0tit1{
     font-size: var(--peso1);
     background: var(--apoio1A);
-    color: var(--fiscor1B);
+    color: var(--ingcor1B);
     max-width: max-content;
     padding: 0.2em 0.5em;
     line-height: 1.2em;
@@ -490,7 +490,7 @@ p0tit6negativo
     font-size:3.2em;
     width: 90px;
     height:90px ;
-    background-color:var(--fiscor2A);
+    background-color:var(--ingcor2A);
    
     box-sizing: border-box; 
     text-align: center;
@@ -530,10 +530,10 @@ p0tit6negativo
     margin: -10px 0 0 9px;
   }
 
-.p0tit2{
+.p0tit2>span{
     font-size: var(--peso2);
     background: var(--apoio1A);
-    color: var(--fiscor1B);
+    color: var(--ingcor1B);
     max-width: max-content;
     padding: 0.2em 0.5em ;
 }
@@ -542,7 +542,7 @@ p0tit6negativo
     font-size:3.2em;
     width: 90px;
     height:90px ;
-    background-color:var(--fiscor2A);
+    background-color:var(--ingcor2A);
     clip-path: polygon(10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0 90%, 0 10%);
     box-sizing: border-box; 
     text-align: center;
@@ -603,7 +603,7 @@ margin: 0 0 0 -18px;
 
 .p0tit3{
     font-size: var(--peso3);
-    color: var(--fiscor1B);
+    color: var(--ingcor1B);
     margin: 1em 0 0.5em 1.5em;
 }
 .p0tit3::before{
@@ -617,7 +617,7 @@ margin:8px 0 0 -32px ;
 }
 .p0tit4{
     font-size: var(--peso4);
-    color: var(--fiscor1A);
+    color: var(--ingcor1A);
     margin: 1em 0 0.5em 1em;
 }
 .p0tit4::before{
@@ -631,11 +631,11 @@ margin:8px 0 0 -32px ;
     }
 .p0tit5{
     font-size: var(--peso5);
-    color: var(--fiscor1C);
+    color: var(--ingcor1C);
 }
 .p0tit6{
     font-size: var(--peso6);
-    color: var(--fiscor2B);
+    color: var(--ingcor1D);
 }
 
 
@@ -2340,7 +2340,7 @@ p5marcadorcaixa3negativo
 p5marcadorquestao
 */
 .p5marcador{
-    background: var(--apoio3C2);
+    background: var(--apoio3C);
     font-family: var(--texto);
     color: var(--branco);
     font-weight: bold;
@@ -2353,7 +2353,7 @@ p5marcadorquestao
 }
 .p5marcadornegativo{}
 .p5marcadorromano{
-    background: var(--apoio3C2);
+    background: var(--apoio3C);
     font-size: 1em;
     color: var(--branco);
     font-weight: bold;
@@ -2391,7 +2391,7 @@ p5marcadorquestao
     padding: 4px 0px 0 0px;
 }
 figure>.p5marcador {
-    background: var(--apoio3C2);
+    background: var(--apoio3C);
     font-family: var(--texto);
     color: var(--branco);
     font-weight: bold;
@@ -2725,7 +2725,7 @@ c0destaquebullet 👉Demanda surgiu no G26 física E002 para trocar cor de bulle
     position: absolute;
     margin: 0 0 0 -30px;
     text-align: center;
-    color: var(--apoio3C2);
+    color: var(--apoio3C);
 }
 .c0destaqueletracitacao{
     font-weight: bold;
@@ -2743,7 +2743,7 @@ c0destaquebullet 👉Demanda surgiu no G26 física E002 para trocar cor de bulle
     position: absolute;
     margin: 0 0 0 -30px;
     text-align: center;
-    color: var(--apoio3C2);
+    color: var(--apoio3C);
 }
 .c0destaquenumerocitacao{
     font-weight: bold;
@@ -2759,10 +2759,10 @@ c0destaquebullet 👉Demanda surgiu no G26 física E002 para trocar cor de bulle
     position: absolute;
     margin: 0 0 0 -40px;
     text-align: right;
-    color: var(--apoio3C2);
+    color: var(--apoio3C);
 }
 .c0destaquequestaonumero{
-    color: var(--apoio3C2);
+    color: var(--apoio3C);
     font-family: var(--titulo);
     font-weight: bold;
 }
@@ -3095,10 +3095,10 @@ o0pronunciation 👉 Especifico de inglês
    
 }
 .o0aberturaatvbox{
-    background: var(--laranja4);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 10%, 100% 90%, 96% 100%, 0% 100%);
+    background: var(--ingcor2Afnd);
+ 
     padding: 1em;
-    margin-bottom: 1.5em;
+    margin: 1em 0;
     width: 100%;
 }
 .o0aberturaobjbox{
