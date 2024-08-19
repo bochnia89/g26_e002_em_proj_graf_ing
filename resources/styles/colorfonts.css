@@ -699,7 +699,7 @@
     --jornal: #DAE0E3;
 
     /* Cores apoio geral */
-    --apoio1Afnd:#FFE8B6; 
+   /*👉 --apoio1Afnd:#FFE8B6; 
     --apoio1A:#FBBA00; 
     --apoio1B:#F39200;
     --apoio1Bfnd:#FEE0BC;
@@ -712,11 +712,26 @@
     --apoio3A:#89CCCA; 
     --apoio3B2:#2DB8C5;    
     --apoio3C2:#0099B2;
-    
     --apoio3B:#9F377E;
     --apoio3C:#643780;
     --apoio4A:#5BC5F2;
-    --apoio4B:#00A7E7;
+    --apoio4B:#00A7E7;👈*/
+
+    --apoio1A: #FBBA00;
+    --apoio1B: #FFE9C0;
+    --apoio1C: #F39200;
+    --apoio1D: #EA5B0C;
+    --apoio2A: #FBDBE3;
+    --apoio2B: #DC5E73;
+    --apoio3A: #E8DDEF;
+    --apoio3B: #A877B2;
+    --apoio3C: #8B4A97;
+    --apoio3D: #6E368C;
+    --apoio4A: #D7E9CF;
+    --apoio4B: #74B959;
+    --apoio4C: #00A183;
+    --apoio4Cfnd: #CAE7EA;
+
 
     --ingcor1A:#59358C;
     --ingcor1B:#43237A;
