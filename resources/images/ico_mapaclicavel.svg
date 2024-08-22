@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.535" height="40.535" viewBox="0 0 40.535 40.535">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_712" data-name="Caminho 712" d="M222.066-.805H262.6V-41.34H222.066Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ico_mapaclicavel" transform="translate(-1228.744 -101.949)">
+    <g id="Grupo_553" data-name="Grupo 553" transform="translate(1006.677 143.289)" clip-path="url(#clip-path)">
+      <g id="Grupo_546" data-name="Grupo 546" transform="translate(242.334 -0.805)">
+        <path id="Caminho_705" data-name="Caminho 705" d="M0,0A20.268,20.268,0,0,0,20.268-20.268,20.268,20.268,0,0,0,0-40.536,20.268,20.268,0,0,0-20.268-20.268,20.268,20.268,0,0,0,0,0"/>
+      </g>
+      <g id="Grupo_547" data-name="Grupo 547" transform="translate(229.912 -18.337)">
+        <path id="Caminho_706" data-name="Caminho 706" d="M0,0,15.974-9.877a2.465,2.465,0,0,1,3.2.542c1.549,2.105-.759,3.6-.759,3.6L6.2,1.594m5.837-3.53a2.466,2.466,0,0,1,3.2.543c1.549,2.105-.759,3.6-.759,3.6L8.44,5.735m4.683-2.716s1.977-1.152,3.2.543c1.277,1.765-.963,3.462-.963,3.462L10.816,9.739M14.261,7.7a2.394,2.394,0,0,1,3.083.681c1.277,1.765-.963,3.462-.963,3.462l-4.547,2.716s-1.02.6-3.154,1.725" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.649"/>
+      </g>
+      <g id="Grupo_548" data-name="Grupo 548" transform="translate(237.771 -29.574)">
+        <path id="Caminho_707" data-name="Caminho 707" d="M0,0S2.024-9.109,12.4-6.579" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.071"/>
+      </g>
+      <g id="Grupo_549" data-name="Grupo 549" transform="translate(258.081 -25.042)">
+        <path id="Caminho_708" data-name="Caminho 708" d="M0,0S-.522,8.526-9.4,8.431" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.071"/>
+      </g>
+      <g id="Grupo_550" data-name="Grupo 550" transform="translate(241.343 -29.271)">
+        <path id="Caminho_709" data-name="Caminho 709" d="M0,0S1.2-4.95,7.33-3.575" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.071"/>
+      </g>
+      <g id="Grupo_551" data-name="Grupo 551" transform="translate(254.454 -24.656)">
+        <path id="Caminho_710" data-name="Caminho 710" d="M0,0S-.319,5.083-6.6,4.793" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.071"/>
+      </g>
+      <g id="Grupo_552" data-name="Grupo 552" transform="translate(224.249 -13.589)">
+        <path id="Caminho_711" data-name="Caminho 711" d="M0,0C1.19-2.384,2.735-3.752,2.835-7.226c.062-2.121-.233-4.059.543-4.955.883-1.018,2.715-.339,3.53,1.29a9.838,9.838,0,0,1,.644,4.876" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.649"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.535" height="40.535" viewBox="0 0 40.535 40.535">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_679" data-name="Caminho 679" d="M0-.805H40.535V-41.34H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ico_carrossel" transform="translate(-1006.677 -101.949)">
+    <g id="Grupo_523" data-name="Grupo 523" transform="translate(1006.677 143.289)" clip-path="url(#clip-path)">
+      <g id="Grupo_522" data-name="Grupo 522" transform="translate(20.268 -0.805)">
+        <path id="Caminho_678" data-name="Caminho 678" d="M0,0A20.268,20.268,0,0,0,20.268-20.268,20.268,20.268,0,0,0,0-40.536,20.268,20.268,0,0,0-20.268-20.268,20.268,20.268,0,0,0,0,0"/>
+      </g>
+    </g>
+    <g id="Grupo_524" data-name="Grupo 524" transform="translate(1033.37 113.875)">
+      <path id="Caminho_680" data-name="Caminho 680" d="M0,0H-18.659V12.749" fill="none" stroke="#fff" stroke-width="0.978"/>
+    </g>
+    <g id="Grupo_525" data-name="Grupo 525" transform="translate(1017.014 132.579)">
+      <path id="Caminho_681" data-name="Caminho 681" d="M0,0H24.344V-16.454H0ZM14.177-20.726H-4.483V-7.979" fill="none" stroke="#fff" stroke-width="1.386"/>
+    </g>
+    <g id="Grupo_527" data-name="Grupo 527" transform="translate(1006.677 143.289)" clip-path="url(#clip-path)">
+      <g id="Grupo_526" data-name="Grupo 526" transform="translate(33.371 -11.356)">
+        <path id="Caminho_682" data-name="Caminho 682" d="M0,0-6.686-8.954-10.4-4.666l-2.531-1.225L-17.683-.037ZM-18.037-9.756a1.7,1.7,0,0,0,1.7-1.7,1.7,1.7,0,0,0-1.7-1.7,1.7,1.7,0,0,0-1.7,1.7A1.7,1.7,0,0,0-18.037-9.756Z" fill="none" stroke="#fff" stroke-width="1.466"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -22,7 +22,7 @@ body {
 main {
     max-width: 85ch;
     margin: 0 auto;
-    
+    overflow-x: hidden !important;
 }
 section {
     box-sizing: border-box;
@@ -3050,11 +3050,20 @@ o0pronunciation 👉 Especifico de inglês
    
 }
 .o0aberturaatvbox{
-    background: var(--ingcor2Afnd);
- 
-    padding: 1em;
+    background: url(../images/pv_o0aberturaatvbox.svg) top  no-repeat var(--ingcor2Afnd);
+    background-position-x:164px ;
+
+    border-top: 2px solid var(--apoio4C);
     margin: 1em 0;
     width: 100%;
+}
+.o0aberturaatvbox>.p1box1tit{
+    background: var(--apoio4C);
+    max-width: max-content;
+    padding: 0.2em 0.5em;
+}
+.o0aberturaatvbox>.box{
+    padding: 1em;
 }
 .o0aberturaobjbox{
     background: var(--branco);
@@ -3617,22 +3626,14 @@ span.o4ficha2 {
     padding: 1.5em;
 }
 .o4boxmateriais{
-    margin: 1em 0;
+
 }
 .o4boxmateriais>.p1box1tit{
-    background: url(../images/bg_canto1.svg) top left no-repeat var(--apoio1C);
-    background-size: 15px;
-    font-family: var(--texto);
-    padding: 0.5em 1em;
-    max-width: max-content;
-    box-shadow: 3px 3px 0 var(--preto);
-    margin-bottom: 0.5em;
+
 }
 .o4boxmateriais .box{
-    background: var(--apoio1Afnd);
     padding: 1em;
-    box-shadow: -7px 7px 0 0 var(--apoio1C);
-    margin-bottom: 1em;
+
 }
 .o4balao{}
 .o4balao, .o4balaopensamento {
@@ -3734,7 +3735,7 @@ span.o4ficha2 {
     margin: 1em 0;
 }
 .o4cuidadobox .p1box1tit{
-    background: url(../images/bg_canto2.svg) top right no-repeat var(--apoio1C);
+    background:var(--preto);
     background-size: 12px;
     font-family: var(--titulo);
     font-weight: bold;
@@ -3743,15 +3744,7 @@ span.o4ficha2 {
     max-width: max-content;
    
 }
-.o4cuidadobox .p1box1tit::before{
-background: url(../images/pv_dica.svg) no-repeat;
-background-size: 100%;
-content: '';
-width: 20px;
-height:20px ;
-position: absolute;
-margin:-2px 0 0 -35px ;
-}
+
 .o4dicabox{
     margin: 0.5em 0;
 }
@@ -3791,15 +3784,12 @@ position: absolute;
 margin:-2px 0 0 -35px ;
 }
 .o4dicaboxnegativo{}
-.o4ideiabox{
-    border-left:2px solid  var(--apoio1C);
-    border-bottom:2px solid  var(--apoio1C);
-}
+.o4ideiabox{}
 .o4ideiabox>.box {
     padding: 1em;
 }
 .o4ideiabox .p1box1tit{
-    background:  var(--apoio1C);
+    background:  var(--preto);
     background-size: 12px;
     font-family: var(--titulo);
     font-weight: bold;
@@ -3807,34 +3797,7 @@ margin:-2px 0 0 -35px ;
     padding: 0.2em 0.8em;
     max-width: max-content;  
 }
-.o4ideiabox .p1box1tit::before{
-    background: url(../images/pv_boxideia1.svg) no-repeat;
-    background-size: 100%;
-    content: '';
-    width: 17px ;
-    height:24px ;
-    position: absolute;
-    margin:-2px 0 0 -34px;
-}
-.o4ideiabox .p1box1tit::after{
-    background: url(../images/pv_boxideia2.svg) no-repeat;
-    background-size: 100%;
-    content: '';
-    width: 17px ;
-    height:44px ;
-    position: absolute;
-    margin:-4px 0 0 14px;
-}
-.o4ideiabox::after{
-    background: url(../images/pv_saibamais.svg) no-repeat;
-      background-size: auto;
-    background-size: 100%;
-    content: '';
-    width: 40px;
-    height: 5px;
-    position: absolute;
-    margin: 0px 0 0 41%;
-  }
+
 .o4autorbox{}
 .o4atencaobox{
     margin: 0.5em 0;
@@ -4018,7 +3981,7 @@ z-index: 5;
     padding: 1em;
 }
 .o5verbetedicionario{
-    border: 2px solid var(--apoio2B);
+    border: 2px solid var(--apoio4B);
     padding: 1em;
     margin: 1em ;
 }
@@ -4465,7 +4428,7 @@ oemamplieseurepertoriobox
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/
-@media screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (max-width: 700px) {
      main {
         max-width: 100%;
         margin: 0 10px;
@@ -4524,6 +4487,28 @@ oemamplieseurepertoriobox
     /*👉TABELA MOBILE 👈*/
     table, thead, tbody, th, td, tr{
         display: block;
+    }
+
+     /* E-MAIL MOBILE */
+     .infoemail {
+        background: var(--verde3);    
+        border-radius: 0.3em ;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1em;
+        padding: 0.5em;
+        margin: 0.5em 0;
+    }
+
+    .btn_enviar {
+        background: no-repeat var(--verde2);
+        border-radius: 0.3em ;
+        background-position-y:1em ;
+        background-position-x:1em;
+        width: 100%;
+        text-align: center;
+        padding:1em 2em 1em 2em;
     }
 
 
